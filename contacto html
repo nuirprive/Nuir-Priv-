@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Nuir Privé</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    form {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #555;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      font-family: 'Helvetica Neue', sans-serif;
+      transition: border-color 0.3s ease;
+    }
+    input:focus, textarea:focus {
+      border-color: #a78bfa; /* morado suave */
+      outline: none;
+    }
+    button {
+      background-color: #6b46c1;
+      color: white;
+      border: none;
+      padding: 14px 25px;
+      font-size: 18px;
+      font-weight: 700;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #553c9a;
+    }
+    .contact-info {
+      margin-top: 50px;
+      font-size: 16px;
+      color: #444;
+      max-width: 600px;
+      text-align: center;
+    }
+    .contact-info a {
+      color: #6b46c1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contacto</h1>
+  <p>¿Quieres diseñar una experiencia exclusiva y personalizada? Escríbenos y te ayudaremos a crear momentos inolvidables.</p>
+
+  <form action="mailto:info@nuirprive.com" method="post" enctype="text/plain">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="Nombre" placeholder="Tu nombre" required />
+
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" name="Correo" placeholder="Tu correo electrónico" required />
+
+    <label for="message">Mensaje</label>
+    <textarea id="message" name="Mensaje" rows="6" placeholder="Cuéntanos qué necesitas" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <div class="contact-info">
+    <p>Email: <a href="mailto:info@nuirprive.com">info@nuirprive.com</a></p>
+  </div>
+</body>
+</html>
