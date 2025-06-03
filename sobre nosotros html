@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sobre Nosotros - Nuir Privé</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 32px;
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="sobre-nosotros.html">Sobre Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <h1>Sobre Nosotros</h1>
+  <p>Somos Rocío y Javier, apasionados por crear experiencias de viaje y eventos exclusivos. Tras años disfrutando y organizando estos servicios para nosotros, hemos decidido ofrecerlos para que tú también puedas vivirlos.</p>
+  <p>Con una sólida trayectoria en hospitality y ventas en Europa y Estados Unidos, y habiendo vivido en diferentes países, contamos con una perspectiva global que nos permite diseñ
