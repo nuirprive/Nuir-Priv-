@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Servicios - Nuir Privé</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 32px;
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    h2 {
+      margin-top: 30px;
+      color: #222;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="sobre-nosotros.html">Sobre Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <h1>Qué Ofrecemos</h1>
+  <p>Diseñamos y ejecutamos experiencias a medida para:</p>
+  <ul>
+    <li>Lunas de miel exclusivas</li>
+    <li>Escapadas privadas de lujo para grupos de amigos</li>
+    <li>Viajes de fin de curso con un enfoque elevado</li>
+    <li>Eventos sociales refinados como engagement parties, baby showers de lujo, cumpleaños VIP, aniversarios y celebraciones privadas en villas o yates</li>
+    <li>Actividades culturales y gastronómicas exclusivas: visitas privadas a museos, galerías y cenas en restaurantes de alta gama con reservas VIP</li>
+  </ul>
+
+  <h2>Experiencias Disponibles</h2>
+  <h3>Lujo y Naturaleza</h3>
+  <ul>
+    <li>Navegación privada por los Everglades</li>
+    <li>Buceo con tortugas y snorkel en reservas naturales</li>
+    <li>Rutas en quads, motos de agua y excursiones personalizadas a Florida Keys</li>
+    <li>Paseos en globo aerostático al amanecer o atardecer</li>
+    <li>Actividades multiaventura: tirolesa, escalada, rafting y más</li>
+    <li>Experiencias inmersivas en la naturaleza: caminatas guiadas, observación de fauna y fotografía profesional</li>
+  </ul>
+
+  <h3>Estilo de Vida, Ocio y Cultura</h3>
+  <ul>
+    <li>Acceso VIP a discotecas, rooftops y eventos privados</li>
+    <li>Cenas exclusivas con chef privado o en rooftops</li>
+    <li>Fiestas privadas en villas con producción completa</li>
+    <li>Visitas privadas a museos y galerías con guías expertos</li>
+    <li>Recorridos culturales exclusivos: arte urbano, historia local y arquitectura</li>
+    <li>Reservas VIP en restaurantes de renombre y experiencias gastronómicas personalizadas</li>
+    <li>Catas de vino exclusivas en tierra o barco</li>
+  </ul>
+
+  <h3>Transporte y Alojamiento Premium</h3>
+  <ul>
+    <li>Alquiler de yates de lujo y catamaranes con servicio</li>
+    <li>Hoteles boutique, villas privadas y penthouses</li>
+    <li>Chofer privado, vehículos de alta gama y transporte aéreo bajo demanda</li>
+  </ul>
+
+  <h3>Eventos Deportivos Exclusivos</h3>
+  <ul>
+    <li>Entradas prioritarias y experiencias VIP para Inter Miami, Miami Heat, Dolphins, MLB, NHL, Fórmula 1, UFC, tenis y más</li>
+  </ul>
+</body>
+</html>
